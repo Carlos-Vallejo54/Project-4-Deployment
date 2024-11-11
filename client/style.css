@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2, h3, #reviews-wrapper h3 {
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+body {
+    font-family: 'DynaPuff', cursive;
+}
+
+h2 {
+    margin: 5px 0 40px 0;
+    color: #fff;
+}
+
+h3 {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+body {
+    background-image: url('https://www.transparenttextures.com/patterns/asfalt-dark.png');
+    background-color: #666;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+
+form {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 80%;
+    max-width: 600px;
+    padding: 10px;
+    background-color: #fff;
+    border: 3px solid #999;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+}
+
+form input[type="text"] {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+    font-family: 'DynaPuff', cursive;
+}
+
+form button {
+    font-family: 'Unlock', sans-serif;
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    float: right;
+    margin-top: 10px;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+#reviews-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 80%;
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+#reviews-wrapper div {
+    background-color: #fffdfa;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+    border: 1px solid #dcdcdc;
+    width: 100%;
+}
+
+#reviews-wrapper h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 8px;
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+#reviews-wrapper p {
+    color: #666;
+    margin: 5px 0;
+    font-size: 0.95em;
+    font-family: 'DynaPuff', cursive;
+}
+
+#reviews-wrapper button {
+    padding: 6px 12px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    font-family: 'Unlock', sans-serif;
+    transition: background-color 0.3s;
+}
+
+#reviews-wrapper button.edit-button {
+    background-color: #28a745;
+    color: white;
+}
+
+#reviews-wrapper button.edit-button:hover {
+    background-color: #218838;
+}
+
+#reviews-wrapper button.delete-button {
+    background-color: #dc3545;
+    color: white;
+}
+
+#reviews-wrapper button.delete-button:hover {
+    background-color: #c82333;
+}
